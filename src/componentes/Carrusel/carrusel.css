@@ -1,0 +1,23 @@
+/* Establece el color de fondo del carrusel */
+#carouselExampleIndicators.carousel {
+  background-color: white;
+  padding-top: 150px;
+}
+
+/* Establece el color de fondo de las imágenes dentro del carrusel */
+.carousel-inner img {
+  background-color: blue;
+}
+
+/* Ajusta el tamaño de las imágenes */
+.carousel-inner img {
+  max-width: 30%; /* La imagen no superará el ancho del contenedor */
+  max-height: 37; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+/* Agrega un borde negro alrededor del carrusel */
+.carousel {
+  border: 5px solid black;
+}
+
+

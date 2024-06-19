@@ -1,0 +1,74 @@
+/* Estilos para la página de inicio de sesión */
+
+/* Fondo */
+.login-section {
+    background-color: #f5f5f5; /* Color de fondo */
+    height: 100vh; /* Altura completa de la pantalla */
+}
+
+/* Tarjeta de inicio de sesión */
+.card {
+    background-color: #ffffff; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+/* Título */
+.card-body h3 {
+    color: #333333; /* Color del texto */
+}
+
+/* Etiqueta de rol */
+.form-group label {
+    color: #333333; /* Color del texto */
+}
+
+/* Select de rol */
+.select-rol {
+    color: #333333; /* Color del texto */
+    background-color: #ffffff; /* Color de fondo */
+}
+
+/* Campos de entrada de texto */
+.form-control {
+    border-color: #ced4da; /* Color del borde */
+}
+
+/* Íconos en campos de entrada de texto */
+.input-group-text {
+    background-color: #ffffff; /* Color de fondo */
+    border-color: #ced4da; /* Color del borde */
+}
+
+/* Mensajes de error */
+.error-message {
+    color: #dc3545; /* Color rojo */
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #4CAF50; /* Color de fondo */
+    border-color: #4CAF50; /* Color del borde */
+}
+
+.btn-primary:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+    border-color: #45a049; /* Color del borde al pasar el mouse */
+}
+
+/* Botones de redes sociales */
+.social-login-btn {
+    background-color: #3b5998; /* Color de fondo para Facebook */
+}
+
+.social-login-btn:hover {
+    background-color: #29487d; /* Color de fondo al pasar el mouse para Facebook */
+}
+
+.google-login-btn {
+    background-color: #db4437; /* Color de fondo para Google */
+}
+
+.google-login-btn:hover {
+    background-color: #c13526; /* Color de fondo al pasar el mouse para Google */
+}

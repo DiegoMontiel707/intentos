@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "identificacion": "123658",
+        "nombres": "Jacobo",
+        "apellidos": "Robledo",
+        "email": "jacobo@gmail.com",
+        "direccion": "mz 4 casa 15 cuba 3",
+        "telefono": "2222222222",
+        "password": "Abc1234#$",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-03-16T20:13:30.748Z"
+    },
+    {
+        "id": 2,
+        "identificacion": "889659",
+        "nombres": "Princesa",
+        "apellidos": "Galia",
+        "email": "princess@hotmail.com",
+        "direccion": "mz 4 casa 15 cuba 3",
+        "telefono": "2365987452",
+        "password": "Abc1234#$",
+        "estado": "activo",
+        "rol": "Administrador",
+        "fecha_creación": "2024-03-16T20:15:30.521Z"
+    },
+    {
+        "id": 3,
+        "identificacion": "64654654",
+        "nombres": "nombres ",
+        "apellidos": "apellidos ",
+        "email": "apellidos@gmail.com",
+        "direccion": "jhdf",
+        "telefono": "3215648970",
+        "password": "P5qnSKayEUcvVdC",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-05-29T21:51:36.842Z"
+    },
+    {
+        "id": 4,
+        "identificacion": "23145678",
+        "nombres": "joge",
+        "apellidos": "profe",
+        "email": "profe@gmail.com",
+        "direccion": "dbhgfjhsd",
+        "telefono": "1234568791",
+        "password": "P5qnSKayEUcvVdC",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-05-29T21:57:08.882Z"
+    }
+]

@@ -1,0 +1,26 @@
+img {
+    width: 60%;
+    height: 90%;
+}
+
+.imagen {
+    width: 10%;
+}
+
+.sesion {
+    /* border: solid 1px red; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-left: 73%;
+    width: 25%;
+    background-color: #cda176; /* Color beige claro */
+}
+
+.sesion .logout {
+    width: 20%;
+    /* border: solid 1px red; */
+    padding-left: 15%;
+    color: black; /* Texto negro */
+}
