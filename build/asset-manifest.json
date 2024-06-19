@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25d97ca2.css",
+    "main.js": "/static/js/main.60026110.js",
+    "static/media/logoCafe.png": "/static/media/logoCafe.b6456c2a0f57cb8184f5.png",
+    "static/media/usuario.gif": "/static/media/usuario.5ee5173f17b362a1ccd4.gif",
+    "static/media/kfetea.jpg": "/static/media/kfetea.ccf8098ce6710527b9b7.jpg",
+    "static/media/sello_rojo.jpg": "/static/media/sello_rojo.4961404ef46a15eeed5f.jpg",
+    "static/media/agila_roja.jpg": "/static/media/agila_roja.f83af1cf7e41da635d13.jpg",
+    "static/media/cornella.jpg": "/static/media/cornella.cce0b1f770062290a67e.jpg",
+    "static/media/pragma.png": "/static/media/pragma.735af4ee262c9f5a1c50.png",
+    "static/media/PRESTO.avif": "/static/media/PRESTO.b34fb484a1726f70a275.avif",
+    "static/media/Nescafe.jpeg": "/static/media/Nescafe.0fe80ff50be72d782c0f.jpeg",
+    "static/media/Buendia.jpeg": "/static/media/Buendia.acab5ceca5cba3c00758.jpeg",
+    "index.html": "/index.html",
+    "main.25d97ca2.css.map": "/static/css/main.25d97ca2.css.map",
+    "main.60026110.js.map": "/static/js/main.60026110.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25d97ca2.css",
+    "static/js/main.60026110.js"
+  ]
+}
