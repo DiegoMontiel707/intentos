@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const user = require('./controller/userController');
-const db = require('./configDB/configDB');
+const db = require('./server/configDB'); // Importar directamente el módulo configDB
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
