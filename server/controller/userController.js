@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const userAPI = 'https://api.jsonbin.io/v3/b/667329dbe41b4d34e405c2a3';
+const userAPI = 'https://api.jsonbin.io/v3/b/667c7cbdacd3cb34a85dd281';
 const apiKey = "$2a$10$t6kxk1p/6N2zM/VE.Eo8P.nh23Jmxv9C81KxM9mBMF3LYVkdqYCCS";
 
 const controller = {
