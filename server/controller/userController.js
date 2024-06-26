@@ -1,7 +1,8 @@
 const axios = require('axios');
+const db = require('../configDB/configDB');
 
 const userAPI = 'https://api.jsonbin.io/v3/b/667c7cbdacd3cb34a85dd281';
-const apiKey = "$2a$10$t6kxk1p/6N2zM/VE.Eo8P.nh23Jmxv9C81KxM9mBMF3LYVkdqYCCS";
+const apiKey = "$2a$10$xvuLSLW78V17AsN2fK6H/On5ZsfYgjLuQQVIBK5Ztob1JaX7MEIWS";
 
 const controller = {
     register: async function (req, res) {
@@ -31,14 +32,23 @@ const controller = {
                 telefono: req.body.telefono,
                 password: req.body.password,
                 estado: "activo",
-                fecha_creación: new Date()
+                fecha_creacion: new Date()
             };
 
-            // Agregar el nuevo usuario a la lista
+            // Insertar nuevo usuario en la base de datos MySQL
+            db.query('INSERT INTO usuario SET ?', nuevoUsuario, (err, result) => {
+                if (err) {
+                    console.error('Error al insertar usuario en MySQL:', err);
+                    return res.status(500).send('Error interno del servidor');
+                }
+                console.log('Usuario insertado en MySQL:', result);
+            });
+
+            // Agregar el nuevo usuario a la lista en JSONBin
             users.push(nuevoUsuario);
 
             // Actualizar los datos en JSONBin
-            await axios.put(userAPI, users ,{
+            await axios.put(userAPI, users, {
                 headers: {
                     'X-Master-Key': apiKey
                 }
@@ -61,7 +71,7 @@ const controller = {
                 }
             });
             const users = response.data.record;
-    
+
             // Buscar el usuario por email y contraseña
             const user = users.find(user => user.email === req.body.email && user.password === req.body.password);
             if (user) {
